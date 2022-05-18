@@ -1,3 +1,7 @@
+controller:
+  # -- Number of pods to load balance between
+  replicas: 1
+
 image:
   # -- image repository
   repository: mikenye/readsb-protobuf
@@ -20,6 +24,9 @@ service:
       http:
         port: 8080
 
+autoscaling:
+  enabled: false
+
 ingress:
   # -- Enable and configure ingress settings for the chart under this key.
   # @default -- See values.yaml
@@ -39,3 +46,7 @@ persistence:
     enabled: false
     type: hostPath
     hostPath: /dev/bus/usb/001/004
+
+serviceAccount:
+  # Specifies whether a service account should be created
+  create: false
