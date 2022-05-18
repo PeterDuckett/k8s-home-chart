@@ -28,8 +28,7 @@ home: https://github.com/PeterDuckett/k8s-home-chart/tree/main/charts/readsb-pro
 
 sources:
   - https://github.com/sdr-enthusiasts/docker-readsb-protobuf
-
-dependencies:
-  - name: common
-    repository: https://library-charts.k8s-at-home.com
-    version: 4.4.2
+# dependencies:
+#   - name: common
+#     repository: https://library-charts.k8s-at-home.com
+#     version: 4.4.2
