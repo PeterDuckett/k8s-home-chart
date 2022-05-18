@@ -3,9 +3,9 @@ entries:
   readsb-protobuf:
   - apiVersion: v2
     appVersion: v4.0.3
-    created: "2022-05-18T17:11:56.697223902+01:00"
+    created: "2022-05-18T17:51:35.698795756+01:00"
     description: A Helm chart for Kubernetes
-    digest: bf954890ac7e61560e4a2436adfc712d6ac8b4362ac170895ddde804db467a0c
+    digest: faa4d0d609cfd892d33c329d90a98111960aa41d443be7a2a19db8c1a79385c7
     home: https://github.com/PeterDuckett/k8s-home-chart/tree/main/charts/readsb-protobuf
     kubeVersion: '>=1.16.0-0'
     name: readsb-protobuf
@@ -18,9 +18,13 @@ entries:
   test:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-05-18T17:11:56.697536458+01:00"
+    created: "2022-05-18T17:51:35.701393489+01:00"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.4.2
     description: A Helm chart for Kubernetes
-    digest: 04bcc7f9bf05a81fa6015ec3262bb779354f86549c98ba6323cbdd5383863459
+    digest: 7d7def9f311b91bb69e0c195cfc3dce868e8a951f2ce4c7c2634d39491aa6797
     name: test
     sources:
     - https://github.com/sdr-enthusiasts/docker-readsb-protobuf
@@ -28,4 +32,4 @@ entries:
     urls:
     - https://peterduckett.github.io/k8s-home-chart/test-0.1.0.tgz
     version: 0.1.0
-generated: "2022-05-18T17:11:56.696905556+01:00"
+generated: "2022-05-18T17:51:35.698327462+01:00"

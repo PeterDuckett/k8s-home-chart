@@ -25,3 +25,8 @@ appVersion: "1.16.0"
 
 sources:
   - https://github.com/sdr-enthusiasts/docker-readsb-protobuf
+
+dependencies:
+  - name: common
+    repository: https://library-charts.k8s-at-home.com
+    version: 4.4.2
