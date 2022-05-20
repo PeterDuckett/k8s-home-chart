@@ -1,11 +1,28 @@
 apiVersion: v1
 entries:
+  flightradar24:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-05-20T15:55:46.123060914+01:00"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.4.2
+    description: A Helm chart for Kubernetes
+    digest: 2c5a269602f4e750796bdf585d4d33c307dc1229368b5484b8208c8c26fcae1c
+    name: flightradar24
+    sources:
+    - https://github.com/sdr-enthusiasts/docker-readsb-protobuf
+    type: application
+    urls:
+    - https://peterduckett.github.io/k8s-home-chart/flightradar24-0.1.0.tgz
+    version: 0.1.0
   readsb-protobuf:
   - apiVersion: v2
     appVersion: v4.0.3
-    created: "2022-05-18T17:51:35.698795756+01:00"
+    created: "2022-05-20T15:55:46.123271755+01:00"
     description: A Helm chart for Kubernetes
-    digest: faa4d0d609cfd892d33c329d90a98111960aa41d443be7a2a19db8c1a79385c7
+    digest: 9d7c3ff9283d1e7e200e8c10c53bbd3cebf874d16f72a8f2669a5d6337fdd814
     home: https://github.com/PeterDuckett/k8s-home-chart/tree/main/charts/readsb-protobuf
     kubeVersion: '>=1.16.0-0'
     name: readsb-protobuf
@@ -18,13 +35,13 @@ entries:
   test:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-05-18T17:51:35.701393489+01:00"
+    created: "2022-05-20T15:55:46.125336577+01:00"
     dependencies:
     - name: common
       repository: https://library-charts.k8s-at-home.com
       version: 4.4.2
     description: A Helm chart for Kubernetes
-    digest: 7d7def9f311b91bb69e0c195cfc3dce868e8a951f2ce4c7c2634d39491aa6797
+    digest: c527bc8fce46075e1ca57717bda5f10f625b3d433b3d6edcf2c5d35c06b79b3d
     name: test
     sources:
     - https://github.com/sdr-enthusiasts/docker-readsb-protobuf
@@ -32,4 +49,4 @@ entries:
     urls:
     - https://peterduckett.github.io/k8s-home-chart/test-0.1.0.tgz
     version: 0.1.0
-generated: "2022-05-18T17:51:35.698327462+01:00"
+generated: "2022-05-20T15:55:46.120850748+01:00"
