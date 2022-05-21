@@ -3,13 +3,13 @@ entries:
   adsbexchange:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-05-21T16:16:46.755381855+01:00"
+    created: "2022-05-21T17:33:18.163034111+01:00"
     dependencies:
     - name: common
       repository: https://library-charts.k8s-at-home.com
       version: 4.4.2
     description: A Helm chart for Kubernetes
-    digest: 2abc6cec3e0bee6ec5fa9d616c241b72200f445d52fa5ff7f4513fc76d3be69f
+    digest: aa08425ab1de7f2c93d854eccbceb463b1cd51710853498d7427e1ae5ed7dd6a
     name: adsbexchange
     sources:
     - https://github.com/sdr-enthusiasts/docker-adsbexchange
@@ -20,13 +20,13 @@ entries:
   adsbhub:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-05-21T16:16:46.757942296+01:00"
+    created: "2022-05-21T17:33:18.165429088+01:00"
     dependencies:
     - name: common
       repository: https://library-charts.k8s-at-home.com
       version: 4.4.2
     description: A Helm chart for Kubernetes
-    digest: 4a4b6f4c6d3748dde2a214147cc559243e2e5545ca0010d4b46b19d26019242f
+    digest: 31292beeb2d00b42bc9577856daf79f474653bffc51a14d4bdd9b28f480d09a9
     name: adsbhub
     sources:
     - https://github.com/sdr-enthusiasts/docker-adsbhub
@@ -37,13 +37,13 @@ entries:
   flightradar24:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-05-21T16:16:46.760946574+01:00"
+    created: "2022-05-21T17:33:18.167759853+01:00"
     dependencies:
     - name: common
       repository: https://library-charts.k8s-at-home.com
       version: 4.4.2
     description: A Helm chart for Kubernetes
-    digest: 15091080bce03a9e248eb183c0505c8979f1a35e0287b32dd329e830825f1c1b
+    digest: 7549cdc846fd6ea63612304d9501bdbaad9a65dd99887e660bfc31a038f54414
     name: flightradar24
     sources:
     - https://github.com/sdr-enthusiasts/docker-readsb-protobuf
@@ -54,13 +54,13 @@ entries:
   opensky:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-05-21T16:16:46.763343611+01:00"
+    created: "2022-05-21T17:33:18.170020214+01:00"
     dependencies:
     - name: common
       repository: https://library-charts.k8s-at-home.com
       version: 4.4.2
     description: A Helm chart for Kubernetes
-    digest: e2534d726bed2716177cd730eca2cb439410964c141a61c0a0368a87a4eedfcb
+    digest: 0c4d735ce223285931594e7966f2fb16091e9aae356e5fee1004435cb5692f18
     name: opensky
     sources:
     - https://github.com/sdr-enthusiasts/docker-opensky-network
@@ -71,13 +71,13 @@ entries:
   planefinder:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-05-21T16:16:46.76553279+01:00"
+    created: "2022-05-21T17:33:18.172045536+01:00"
     dependencies:
     - name: common
       repository: https://library-charts.k8s-at-home.com
       version: 4.4.2
     description: A Helm chart for Kubernetes
-    digest: 0673ea5d9d694509efa6f64c389b8e43e028337e4984ddd66b7524c3d79422fd
+    digest: d7575273d785c60e11f5a383ac5904b46a30b136b158a08a9b0282950bbfd7af
     name: planefinder
     sources:
     - https://github.com/sdr-enthusiasts/docker-planefinder
@@ -85,12 +85,29 @@ entries:
     urls:
     - https://peterduckett.github.io/k8s-home-chart/planefinder-0.1.0.tgz
     version: 0.1.0
+  radarbox:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-05-21T17:33:18.175021642+01:00"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.4.2
+    description: A Helm chart for Kubernetes
+    digest: 5a7db4bfa311b54cbc66662fa36efd26a7c3af8e51b245cc5955bfde9303a1e5
+    name: radarbox
+    sources:
+    - https://github.com/sdr-enthusiasts/docker-radarbox
+    type: application
+    urls:
+    - https://peterduckett.github.io/k8s-home-chart/radarbox-0.1.0.tgz
+    version: 0.1.0
   readsb-protobuf:
   - apiVersion: v2
     appVersion: v4.0.3
-    created: "2022-05-21T16:16:46.765768154+01:00"
+    created: "2022-05-21T17:33:18.175263929+01:00"
     description: A Helm chart for Kubernetes
-    digest: 9f2c086afc2c2e61dd30ec3e5ec578bcbfb65c6763112536f3dfcead0b8826e7
+    digest: 20be376914c91a774e356073d0d55e7d1c1d2784483668dd0f90c9d11f46d1cb
     home: https://github.com/PeterDuckett/k8s-home-chart/tree/main/charts/readsb-protobuf
     kubeVersion: '>=1.16.0-0'
     name: readsb-protobuf
@@ -103,13 +120,13 @@ entries:
   test:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-05-21T16:16:46.768590227+01:00"
+    created: "2022-05-21T17:33:18.177398663+01:00"
     dependencies:
     - name: common
       repository: https://library-charts.k8s-at-home.com
       version: 4.4.2
     description: A Helm chart for Kubernetes
-    digest: 607b7a523c0a98fb8acc5cd4a9ad7fa378d8124366c9c47839d8c3b81570ca88
+    digest: e9929e89fa03010b250d5454a8f4ae9cdcd1117025eedebf3aa9b8eb706f35ef
     name: test
     sources:
     - https://github.com/sdr-enthusiasts/docker-readsb-protobuf
@@ -117,4 +134,4 @@ entries:
     urls:
     - https://peterduckett.github.io/k8s-home-chart/test-0.1.0.tgz
     version: 0.1.0
-generated: "2022-05-21T16:16:46.752729288+01:00"
+generated: "2022-05-21T17:33:18.160364716+01:00"
