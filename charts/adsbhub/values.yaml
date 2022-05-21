@@ -4,7 +4,7 @@ controller:
 
 image:
   # -- image repository
-  repository: docker pull mikenye/adsbhub
+  repository: mikenye/adsbhub
   # -- image tag
   tag: 1.06
   # -- image pull policy
